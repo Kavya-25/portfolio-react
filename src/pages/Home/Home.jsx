@@ -29,8 +29,8 @@ export const Home = () => {
           </span>
           "  )
         </h1>
-      <img src="/images/orange girl.svg" alt="" />
       </div>
+      <img src="/images/orange girl.svg" alt="" />
     </div>
   );
 };

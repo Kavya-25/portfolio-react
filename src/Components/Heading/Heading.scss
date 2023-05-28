@@ -6,7 +6,10 @@
     }
     .title{
         color: white;
-        font-size: 5rem;
+        font-size: 4rem;
         font-family: glitch-bold;
+        @media (max-width:600px) {
+           font-size: 3rem;
+        }
     }
 }

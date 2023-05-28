@@ -5,7 +5,7 @@ export const Heading = ({symbol,title}) => {
   return (
     <div className='heading'>
     <div className="symbol">{symbol}</div>
-    <div className="title">{title}</div>
+    <h1 className="title">{title}</h1>
     </div>
   )
 }

@@ -22,7 +22,8 @@ export const Animatedcursor = () => {
         'textarea',
         'button',
         'h1',
-        '.link'
+        '.link',
+  
       ]}
     />
   

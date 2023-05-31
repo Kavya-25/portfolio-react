@@ -7,6 +7,7 @@ import { About } from './pages/About/About'
 import { Home } from './pages/Home/Home'
 import { Portfolio } from './pages/Portfolio/Portfolio'
 import { Skills } from './pages/Skills/Skills'
+import { ErrorPage } from './pages/ErrorPage/ErrorPage'
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
-    <Route path='/skills' element={<Skills/>}/>
+    <Route path='/resume' element={<Skills/>}/>
     <Route path='/portfolio' element={<Portfolio/>}/>
+    <Route path='/*' element={<ErrorPage/>}/>
     
    
     </Routes>

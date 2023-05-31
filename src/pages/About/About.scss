@@ -16,7 +16,7 @@
         -webkit-box-shadow: 40px 50px 42px 10px rgba(0,0,0,0.75);
         -moz-box-shadow: 40px 50px 42px 10px rgba(0,0,0,0.75);
         box-shadow: 40px 50px 42px 10px rgba(0,0,0,0.75);
-        background-image: url(/public//images/noise2.png);
+        background-image: url(/images/noise2.png);
         .left{
             width: 50%;
             display: flex;
@@ -29,7 +29,7 @@
                 border-top-left-radius: 50px;
                 border-bottom-right-radius: 50px;       
             }
-            @media (max-width:600px) {
+            @media (max-width:768px) {
                 width: 100%;
                 padding: 0.3rem;
                 border: none;
@@ -66,17 +66,17 @@
                 &:hover{
                     background-color:rgb(224, 58, 32) ;
                 }
-                @media (max-width:600px) {
+                @media (max-width:768px) {
                   padding: 0.7rem 2.5rem;
                 }
             }
-            @media (max-width:600px) {
+            @media (max-width:768px) {
                 width: 70%;
                 font-size: 1.2rem;
                 padding: 0;
             }
         }
-        @media (max-width:600px) {
+        @media (max-width:768px) {
             flex-direction: column;
             width: 100%;
             padding: 2rem 0;
@@ -84,7 +84,7 @@
             border: none;
         }
     }
-    @media (max-width:600px) {
+    @media (max-width:768px) {
         padding: 0;
         width: 100%;
     }

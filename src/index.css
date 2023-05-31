@@ -5,11 +5,11 @@
 }
 @font-face {
   font-family: glitch;
-  src: url(../public/fonts/Parametric-Glitch.woff);
+  src: url(/fonts/Parametric-Glitch.woff);
 }
 @font-face {
   font-family: glitch-bold;
-  src: url(../public/fonts/Parametric-Glitch-Bold.woff);
+  src: url(/fonts/Parametric-Glitch-Bold.woff);
 }
 body {
   margin: 0;

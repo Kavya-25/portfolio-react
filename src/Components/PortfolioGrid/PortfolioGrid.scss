@@ -1,0 +1,68 @@
+.portfoliogrid{
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    // padding: 0 4px;
+    .column {
+        -ms-flex: 32%; /* IE10 */
+        flex: 32%;
+        max-width: 32%;
+        padding: 0 4px;
+        .project{
+            border: 1px solid gray;
+            padding: 1rem;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin: 10px;
+            a{
+                img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+                filter: sepia(1);
+                &:hover{
+                    transform: scale(1.02);
+                    transition: 0.4s;
+                    filter: none;
+                }
+              }
+              button{
+                cursor: pointer;
+                padding: 0.5rem 3rem;
+                background-color:transparent;
+               border-top-left-radius: 10px;
+               border-bottom-right-radius: 10px;
+               border: 1px solid gray;
+               text-transform: lowercase;
+               font-size: 1.3rem;
+             background-color: rgb(3, 137, 246);
+             color: white;
+             &:hover{
+                background-color: rgb(224, 58, 32);
+             }
+              }
+            }
+            h1{
+                font-family: glitch-bold;
+                letter-spacing: 3px;
+            }
+            p{
+                text-transform: lowercase;
+                color: white;
+                letter-spacing: 2px;
+            }
+           
+        }
+        @media (max-width:768px) {
+          -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        }
+    }
+    @media (max-width:768px) {
+  width: 100%;
+      }
+}
+}

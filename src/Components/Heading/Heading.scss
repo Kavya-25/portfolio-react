@@ -4,12 +4,31 @@
         font-size: 2rem;
         text-align: center;
     }
-    .title{
+    h1 {
+        font-size: 3rem;
         color: white;
-        font-size: 4rem;
-        font-family: glitch-bold;
-        @media (max-width:600px) {
-           font-size: 3rem;
-        }
-    }
-}
+        
+        --x-offset: -0.0625em;
+        --y-offset: 0.0625em;
+        --stroke: 0.025em;
+        --background-color: rgb(116, 194, 194);
+        --stroke-color: rgb(21, 22, 22);
+        
+        text-shadow: 
+          
+          var(--x-offset)
+          var(--y-offset)
+          0px
+          var(--background-color), 
+          
+          calc( var(--x-offset) - var(--stroke) )
+          calc( var(--y-offset) + var(--stroke) )
+          0px
+          var(--stroke-color);
+          @media (max-width:600px) {
+            font-size: 2rem;
+          }
+        
+      }       
+      }
+  

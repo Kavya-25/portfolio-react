@@ -30,9 +30,26 @@
             }
         }
     }
+    button{
+        padding:1.2rem 4rem;
+        outline: none;
+        margin: 1rem;
+        border: none;
+        background-color: rgb(3, 137, 246);
+        color: white;
+        font-family: glitch-bold;
+        font-size: 1.4rem;
+        cursor: pointer;
+        &:hover{
+            background-color:rgb(224, 58, 32) ;
+        }
+        @media (max-width:600px) {
+          padding: 0.7rem 2.5rem;
+        }
+    }
     img{
         height: 300px;
-        width: 100%;
+        // width: 100%;
     }
     .arrow{
         transform: rotate(90deg);

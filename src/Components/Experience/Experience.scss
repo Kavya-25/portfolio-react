@@ -1,0 +1,18 @@
+.experience{
+    .container{
+        border: 1px solid gray;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        color: white;
+        .list-items{
+            li{
+                margin: 30px;
+                span{
+                    color:rgb(237, 202, 78);
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}

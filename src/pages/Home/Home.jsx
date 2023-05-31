@@ -1,12 +1,13 @@
 import "./Home.scss";
 import { Typewriter } from "react-simple-typewriter";
+import {HiOutlineClipboardDocumentCheck} from 'react-icons/hi2'
 
 export const Home = () => {
   const handleDone = () => {
     console.log(`Done after 5 loops!`);
   };
   const handleType = (count) => {
-    console.log(count);
+  
   };
   return (
     <div className="home">
@@ -30,7 +31,8 @@ export const Home = () => {
           "  )
         </h1>
       </div>
-      <img src="/images/orange girl.svg" alt="" />
+      <button>(_see portfolio <HiOutlineClipboardDocumentCheck/>/)</button><br />
+      <img src="/images/vrgirl.png" alt="" />
     </div>
   );
 };

@@ -25,6 +25,7 @@ export const Animatedcursor = () => {
         '.link'
       ]}
     />
+  
     </div>
   )
 }

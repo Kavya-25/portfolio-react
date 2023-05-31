@@ -16,4 +16,19 @@ body {
   font-family: glitch;
 
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #131212; 
+}
 

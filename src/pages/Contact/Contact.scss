@@ -1,0 +1,26 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // padding: 0 4rem;
+  position: relative;
+  width: 100%;
+  .contact-container {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:space-around;
+    @media (max-width:768px) {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+  }
+  @media (max-width:768px) {
+    padding: 0rem;
+    align-items:center;
+    max-height: fit-content;
+  }
+}

@@ -1,10 +1,8 @@
-.container {
+.nav-container {
   position: relative;
   display: flex;
   flex-direction: column;
   z-index: 10;
-
-
 header {
   justify-content: flex-end;
   height: 58px;
@@ -29,6 +27,7 @@ header {
   color: #fff;
   width: 100%;
   overflow: hidden;
+  z-index: 15;
 
   a {
     color: #7b7979;
@@ -59,6 +58,7 @@ header {
         img{
             display: block;
             opacity: 0.3;
+            
             // animation: appear 1s;
             @media (max-width:768px) {
                 display: none;

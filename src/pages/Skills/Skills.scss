@@ -29,6 +29,7 @@
             padding: 2rem;
             @media (max-width:768px) {
                 width: 100%;
+                padding: 0;
             }
         }
         @media (max-width:768px) {
@@ -36,12 +37,12 @@
             border: none;
             box-shadow: none;
             flex-direction: column;
-            padding: 2rem;
+            padding:0 2rem;
         }
     }
     @media (max-width:768px) {
         flex-direction: column;
-        // padding: 0rem;
+        padding: 0rem 2rem;
 
     }
 }

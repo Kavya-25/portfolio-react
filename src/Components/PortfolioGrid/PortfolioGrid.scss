@@ -16,6 +16,9 @@
             border-top-left-radius: 20px;
             border-bottom-right-radius: 20px;
             margin: 10px;
+            -webkit-box-shadow: 10px 20px 22px 10px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 20px 22px 10px rgba(0,0,0,0.75);
+        box-shadow: 10px 20px 22px 10px rgba(0,0,0,0.75);
             a{
                 img {
                 margin-top: 8px;

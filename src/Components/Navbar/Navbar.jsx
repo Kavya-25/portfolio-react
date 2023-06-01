@@ -30,7 +30,7 @@ export const Navbar=()=> {
   }
 
   return (
-    <div className="container">
+    <div className="nav-container">
       <header>
         <div  onClick={isOpen}>
           <CgMenuMotion className="menu"/>
@@ -72,7 +72,8 @@ export const Navbar=()=> {
                       delay:.8
                     }
                  }}
-              >("_About_me")<img src='/images/pageimg/about.png' alt=''/></motion.a>
+              >("About_me")<img src='/images/pageimg/about.png' alt=''/>
+              </motion.a>
               <motion.a href="resume"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
@@ -111,7 +112,7 @@ export const Navbar=()=> {
                       delay:.2
                     }
                  }}
-              >("_Contact_me")</motion.a>
+              >("Contact_me")<img src='/images/portfolioimg/contact.png'></img></motion.a>
             </motion.div>
           )
         }    

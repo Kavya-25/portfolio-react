@@ -3,21 +3,28 @@ import { Heading } from "../../Components/Heading/Heading";
 import { SkillSection } from "../../Components/SkillSection/SkillSection";
 import { Education } from "../../Components/Education/Education";
 import { Experience } from "../../Components/Experience/Experience";
-import { TiltComponent } from "../../Components/TiltComponent";
+import { motion } from "framer-motion";
+import {FramerScroll} from '../../Components/FramerScroll/FramerScroll'
 
 export const Skills = () => {
   return (
-    <div className="skills" id="skills">
+    <motion.div
+      className="skills"
+      id="skills"
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      exit={{ scaleY: 0 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    >
+    <FramerScroll/>
       <Heading title="<_resume/>" symbol="{!}" />
-      <TiltComponent>
-      <div className="skill-container">
+      <motion.div className="skill-container">
         <div className="work">
-        <Education/>
-        <Experience/>
-          </div>
-   <SkillSection/>
+          <Education />
+          <Experience />
         </div>
-        </TiltComponent>
-      </div>
+        <SkillSection />
+      </motion.div>
+    </motion.div>
   );
 };

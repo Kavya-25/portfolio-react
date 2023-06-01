@@ -31,6 +31,9 @@ export const frameworks=[
 ]
 export const others=[
     {
+        value:'Data Structures & Algorithms'
+    },
+    {
         value:'Github'
     },
     {

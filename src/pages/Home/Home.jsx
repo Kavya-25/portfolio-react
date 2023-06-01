@@ -1,6 +1,7 @@
 import "./Home.scss";
 import { Typewriter } from "react-simple-typewriter";
 import {HiOutlineClipboardDocumentCheck} from 'react-icons/hi2'
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const handleDone = () => {
@@ -31,7 +32,7 @@ export const Home = () => {
           "  )
         </h1>
       </div>
-      <button>(_see portfolio <HiOutlineClipboardDocumentCheck/>/)</button><br />
+      <Link to='/portfolio'><button>(_see portfolio <HiOutlineClipboardDocumentCheck/>/)</button></Link><br />
       <img src="/images/vrgirl.png" alt="" />
     </div>
   );

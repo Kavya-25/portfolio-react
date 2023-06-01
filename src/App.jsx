@@ -1,6 +1,6 @@
 import './App.css'
 import {Routes, Route,useLocation} from 'react-router-dom'
-// import { Animatedcursor } from './Components/AnimatedCursor'
+import { Animatedcursor } from './Components/AnimatedCursor'
 import { Navbar } from './Components/Navbar/Navbar'
 import { Sidebar } from './Components/Sidebar/Sidebar'
 import { About } from './pages/About/About'
@@ -18,7 +18,7 @@ function App() {
   const location=useLocation();
   return (
     <>
-    {/* <Animatedcursor/>   */}
+    <Animatedcursor/>  
     <Sidebar/>
     <Navbar/>
     <AnimatePresence>

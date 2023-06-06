@@ -1,20 +1,12 @@
 import { Heading } from "../../Components/Heading/Heading";
 import "./About.scss";
 import { AiOutlineDownload } from "react-icons/ai";
-import { motion, AnimatePresence } from "framer-motion";
-import {FramerScroll} from '../../Components/FramerScroll/FramerScroll'
+import { FramerScroll } from "../../Components/FramerScroll/FramerScroll";
 
-export const About = () => {
+const About = () => {
   return (
-    <motion.div
-      className="about"
-      id="about"
-      initial={{ scaleY: 0 }}
-      animate={{ scaleY: 1 }}
-      exit={{ scaleY: 0 }}
-      transition={{ duration: 0.3 }}
-    >
-<FramerScroll/>
+    <div className="about" id="about">
+    <FramerScroll/>
       <Heading title="<who_am_i/>" symbol="{/}" />
       <div className="about-container">
         <div className="left">
@@ -43,6 +35,8 @@ export const About = () => {
           </a>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
+
+export default About;

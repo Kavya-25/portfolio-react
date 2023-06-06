@@ -7,7 +7,7 @@ import {Info} from '../../Components/Info/Info'
 import {FormSection} from '../../Components/Form/FormSection'
 import { Footer } from '../../Components/Footer/Footer'
 
-export const Contact = () => {
+ const Contact = () => {
   return (
     <div className='contact'>
     <Heading symbol={"{//}"} title="<contact_me/>" />
@@ -19,3 +19,4 @@ export const Contact = () => {
     </div>
   )
 }
+export default Contact;

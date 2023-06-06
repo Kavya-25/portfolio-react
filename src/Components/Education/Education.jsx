@@ -1,4 +1,3 @@
-import React from "react";
 import './Education.scss'
 import { education } from "./educationdata";
 
@@ -11,7 +10,7 @@ export const Education = () => {
            {education.map((item,id)=>{
             return (
                 <li key={id}>
-                    <span>{item.title} </span> | {item.score} | {item.duration} | {item.school}
+                    <span>{item.title} </span> // {item.score} // {item.duration} // {item.school}
                 </li>
             )
            })}

@@ -59,7 +59,7 @@ export const Navbar=()=> {
                       delay:1
                     }
                  }}
-              >("_Home")<img src='https://th.bing.com/th/id/R.7f34a70a5bee79488309934920d316cb?rik=IRJI6pSFo6OI%2fQ&riu=http%3a%2f%2fallpicts.in%2fwp-content%2fuploads%2f2018%2f03%2fNatural-Images-HD-1080p-Download-with-Keyhole-Arch-at-Pfeiffer-Beach.jpg&ehk=JPI0MFI04N62Xtd7MT1P2sw4vJgwODLsp1EcpgvuGFo%3d&risl=&pid=ImgRaw&r=0'/></motion.a>
+              >("_Home")<img src='/images/pageimg/home.png'/></motion.a>
               <motion.a href="about"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}

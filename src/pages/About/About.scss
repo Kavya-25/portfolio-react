@@ -13,16 +13,13 @@
         border: 1px solid gray;
         border-top-left-radius: 50px;
         border-bottom-right-radius: 50px;
-        -webkit-box-shadow: 40px 50px 42px 10px rgba(0,0,0,0.75);
-        -moz-box-shadow: 40px 50px 42px 10px rgba(0,0,0,0.75);
-        box-shadow: 40px 50px 42px 10px rgba(0,0,0,0.75);
-        background-image: url(/images/noise2.png);
+        box-shadow: 10px 10px 12px 5px rgba(0,0,0,0.75);
+        background-color: #242424;
         .left{
             width: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            // border-right: 1px solid gray;
             img{
                 width: 300px;
                 margin: 2rem 0;
@@ -61,10 +58,12 @@
                 background-color: rgb(3, 137, 246);
                 color: white;
                 font-family: glitch-bold;
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
                 font-size: 1.4rem;
                 cursor: pointer;
                 &:hover{
-                    background-color:rgb(224, 58, 32) ;
+                    background-color:rgba(18, 212, 242, 0.82)  ;
                 }
                 @media (max-width:768px) {
                   padding: 0.7rem 2.5rem;

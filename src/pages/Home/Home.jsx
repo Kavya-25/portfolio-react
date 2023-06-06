@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import {HiOutlineClipboardDocumentCheck} from 'react-icons/hi2'
 import { Link } from "react-router-dom";
 
-export const Home = () => {
+ const Home = () => {
   const handleDone = () => {
     console.log(`Done after 5 loops!`);
   };
@@ -15,11 +15,11 @@ export const Home = () => {
       <div className="name">
         <p>// HI, I AM KAVYA . I AM A </p>
         <h1>
-          (  "
+          ( "
           <span>
             <Typewriter
               words={[" _student ", "_web-developer"]}
-              loop={10}
+              loop={20}
               cursor
               cursorStyle="_"
               typeSpeed={70}
@@ -29,11 +29,12 @@ export const Home = () => {
               onType={handleType}
             />
           </span>
-          "  )
+          " )
         </h1>
       </div>
       <Link to='/portfolio'><button>(_see portfolio <HiOutlineClipboardDocumentCheck/>/)</button></Link><br />
-      <img src="/images/vrgirl.png" alt="" />
+      <img src="https://i.pinimg.com/originals/7a/c7/1e/7ac71e72373b0fb270b3a6d72e44eea3.gif" alt="" />
     </div>
   );
 };
+export default Home;

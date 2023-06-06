@@ -1,4 +1,6 @@
 .portfoliogrid{
+    overflow-x: hidden;
+    width: 100vw;
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -15,6 +17,7 @@
             padding: 1rem;
             border-top-left-radius: 20px;
             border-bottom-right-radius: 20px;
+            background-color: #242424;
             margin: 10px;
             -webkit-box-shadow: 10px 20px 22px 10px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 20px 22px 10px rgba(0,0,0,0.75);
@@ -43,7 +46,7 @@
              background-color: rgb(3, 137, 246);
              color: white;
              &:hover{
-                background-color: rgb(224, 58, 32);
+                background-color: rgba(18, 212, 242, 0.82) ;
              }
               }
             }

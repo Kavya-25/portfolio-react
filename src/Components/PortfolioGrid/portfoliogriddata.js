@@ -65,7 +65,7 @@ export const imgcol3=[
     },
     {
         id:10,
-        title:'//insta_clone',
+        title:'//instagram_clone',
         href:'https://insta-clone-1ff26.web.app/',
         url:'/images/portfolioimg/instaclone.jpeg',
         desc:'React.js | SASS | Firebase'

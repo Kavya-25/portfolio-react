@@ -45,4 +45,7 @@ export const others=[
     {
         value:'canva'
     },
+    {
+        value:'vercel'
+    }
 ]

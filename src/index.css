@@ -1,6 +1,7 @@
 :root {
   color: rgb(237, 202, 78);
   background-color: #242424;
+  background-image: url(https://www.vhv.rs/file/max/36/367439_white-grid-png.png );
   
 }
 @font-face {
@@ -15,6 +16,7 @@ body {
   margin: 0;
   font-family: glitch;
   overflow-x: hidden;
+  
 
 }
 ::-webkit-scrollbar {

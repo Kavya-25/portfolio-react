@@ -1,4 +1,3 @@
-import React from 'react'
 import './Experience.scss'
 import {experience} from  './experiencedata'
 
@@ -11,7 +10,7 @@ export const Experience = () => {
            {experience.map((item,id)=>{
             return (
                 <li key={id}>
-                    <span>{item.title} </span> | {item.score} | {item.duration} | {item.school}
+                    <span>{item.title} </span>  // {item.duration} // {item.school}
                 </li>
             )
            })}

@@ -18,7 +18,7 @@ export const imgcol1=[
         title:'//weather_app',
         href:'https://kavya-25.github.io/Weather-App/',
         url:'/images/portfolioimg/weather.png',
-        desc:'HTML | CSS '
+        desc:'HTML | CSS | Javascript'
     },
     
 ]
@@ -43,7 +43,7 @@ export const imgcol2=[
         title:'//to_do app',
         href:'https://kavya-25.github.io/PixoWebProjects/to-do-list/',
         url:'/images/portfolioimg/todo.png',
-        desc:'HTML | CSS'
+        desc:'HTML | CSS | Javascript'
     },
    
    
@@ -61,7 +61,7 @@ export const imgcol3=[
         title:'//music_player',
         href:'https://kavya-25.github.io/PixoWebProjects/musicplayer/',
         url:'/images/portfolioimg/music.png',
-        desc:'HTML | CSS'
+        desc:'HTML | CSS | Javascript'
     },
     {
         id:10,
@@ -76,6 +76,6 @@ export const imgcol3=[
         title:'//magic_notes',
         href:'https://hillffairnith.com/',
         url:'/images/portfolioimg/magicnotes.png',
-        desc:'HTML | CSS'
+        desc:'HTML | CSS | Javascript'
     }
 ]

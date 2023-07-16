@@ -1,8 +1,7 @@
 :root {
   color: rgb(237, 202, 78);
   background-color: #242424;
-  background-image: url(https://www.vhv.rs/file/max/36/367439_white-grid-png.png );
-  
+  background-image: url(https://www.vhv.rs/file/max/36/367439_white-grid-png.png);
 }
 @font-face {
   font-family: glitch;
@@ -16,8 +15,8 @@ body {
   margin: 0;
   font-family: glitch;
   overflow-x: hidden;
-  
-
+  background-attachment: fixed;
+  margin-left: 40px;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -28,10 +27,15 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: gray; 
+  background: gray;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #131212; 
+  background: #131212;
 }
 
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+}

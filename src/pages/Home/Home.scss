@@ -1,68 +1,68 @@
-.home{
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-attachment: fixed;
+  .name {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
-    justify-content:flex-start;
-    height: 100vh;
-    .name{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:space-between;
-        p{
-            color: white;
-            font-size: 1.5rem;
-            @media (max-width:768px) {
-                font-size: 1rem;
-            }
-        }
-        h1{
-            color: white;
-            span{
-                color: rgb(237, 202, 78);
-                font-family: glitch-bold;
-            }
-            margin-top: -10px;
-            font-size: 6rem;
-            @media (max-width:768px) {
-                font-size: 2.5rem;
-                text-align: center;
-            }
-        }
+    justify-content: space-between;
+    p {
+      color: white;
+      font-size: 1.5rem;
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
     }
-    button{
-        padding:1.2rem 4rem;
-        outline: none;
-        margin: 1rem;
-        border: none;
-        background-color: rgb(3, 137, 246);
-        color: white;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+    h1 {
+      color: white;
+      span {
+        color: rgb(237, 202, 78);
         font-family: glitch-bold;
-        font-size: 1.4rem;
-        cursor: pointer;
-        &:hover{
-            background-color:rgba(18, 212, 242, 0.82) ;
-        }
-        @media (max-width:768px) {
-          padding: 0.7rem 2rem;
-        }
+      }
+      margin-top: -10px;
+      font-size: 6rem;
+      @media (max-width: 768px) {
+        font-size: 2.5rem;
+        text-align: center;
+      }
     }
-    img{
-        height: 400px;
-        width: 80%;
-        filter: sepia(1);
-        @media (max-width:768px) {
-            height: 250px;
-            width: 100%;
-        }
+  }
+  button {
+    padding: 1.2rem 4rem;
+    outline: none;
+    margin: 1rem;
+    border: none;
+    background-color: rgb(3, 137, 246);
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: glitch-bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(18, 212, 242, 0.82);
     }
-    .arrow{
-        transform: rotate(90deg);
-        color: white;
-        font-size: 2rem;
-        margin-top: -5px;
+    @media (max-width: 768px) {
+      padding: 0.7rem 2rem;
     }
-
+  }
+  img {
+    height: 400px;
+    width: 80%;
+    filter: sepia(1);
+    @media (max-width: 768px) {
+      height: 250px;
+      width: 100%;
+    }
+  }
+  .arrow {
+    transform: rotate(90deg);
+    color: white;
+    font-size: 2rem;
+    margin-top: -5px;
+  }
 }

@@ -19,44 +19,51 @@ export const FormSection = () => {
   const handleSubmit = (e) => {
     const { name, email, subject, message } = details;
     e.preventDefault();
-    if(name && email && subject && message){
-    const res = fetch(
-      "https://my-portfolio-6f42d-default-rtdb.firebaseio.com/usermessage.json",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          subject,
-          message,
-        }),
+    if (name && email && subject && message) {
+      const res = fetch(
+        "https://my-portfolio-6f42d-default-rtdb.firebaseio.com/usermessage.json",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            subject,
+            message,
+          }),
+        }
+      );
+      console.log(res);
+      if (res) {
+        toast.success("Message sent successfully", {
+          theme: "dark",
+          autoClose: 3000,
+        });
+        setDetails({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        toast.error("Plzz fill all the input fields ", {
+          theme: "dark",
+          autoClose: 3000,
+        });
       }
-    );
-    if(res){
-      toast.success("Message sent successfully",{
-        theme:"dark",autoClose: 3000
-      })
-      setDetails({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-      })
+    } else {
+      toast.error("Plzz fill all input fields ", {
+        theme: "dark",
+        autoClose: 3000,
+      });
     }
-    else{
-      toast.error("Plzz fill all the input fields ",{theme:"dark",autoClose: 3000})
-    }
-  }else{
-    toast.error("Plzz fill all input fields ",{theme:"dark",autoClose: 3000})
-  }
   };
 
   return (
     <form className="formsection">
-    <ToastContainer position="top-right" autoClose={3000} closeOnClick/>
+      <ToastContainer position="top-right" autoClose={3000} closeOnClick />
       <img src="/images/location.png" alt="" className="location" />
       <h2>
         ("want to collab or have any idea?&nbsp;<span>contact me here")</span>
